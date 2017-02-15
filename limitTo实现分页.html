@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="filterApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div ng-controller="indexCtrl">
+			<button ng-click='pageTo(1)'>第一页</button>
+			<button ng-click='pageTo(2)'>第二页</button>
+			<button ng-click='pageTo(3)'>第三页</button>
+			<button ng-click='pageTo(4)'>第四页</button>
+			<button ng-click='pre()'>上一页</button>
+			<button ng-click='next()'>下一页</button>
+			<ul>
+				<li ng-repeat="arr in arrs|limitTo:2:pageNum">{{arr.name}}</li>
+			</ul>
+		</div>
+	</body>
+	<script src="js/angular.js"></script>
+	<script>
+		var app = angular.module('filterApp', []);
+		app.controller('indexCtrl', ['$scope', function($scope) {
+			$scope.name = 'yao';
+			$scope.pageNum = 0;
+			$scope.pre = function() {
+				$scope.pageNum -= 2
+			}
+			$scope.next = function() {
+				$scope.pageNum += 2
+			}
+			$scope.pageTo = function(pageNum) {
+				$scope.pageNum = (pageNum - 1) * 2;
+			}
+			$scope.arrs = [{
+				name: 'xie',
+				age: 30
+			}, {
+				name: 'lan',
+				age: 26
+			}, {
+				name: 'yao',
+				age: 26
+			}, {
+				name: 'yi',
+				age: 18
+			}, {
+				name: 'ming',
+				age: 16
+			}, {
+				name: 'ge',
+				age: 22
+			}, {
+				name: 'as',
+				age: 23
+			}];
+		}])
+	</script>
+
+</html>
