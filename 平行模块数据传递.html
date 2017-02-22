@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="xApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div {
+				width: 200px;
+			}
+		</style>
+		<script type="text/javascript" src="js/angular.js"></script>
+	</head>
+
+	<body>
+		<div ng-controller="brother1" style="border: 1px solid blue;margin-bottom: 5px;padding-left: 5px;">
+			<p>{{name}}<span style="color: red;padding-left: 20px;">{{test}}</span></p>
+			<button ng-click="toSon()">toSon</button>
+			<div ng-controller="son" style="border: 2px solid red;margin-bottom: 5px;padding-left: 5px;width: 90%;">
+				<p>{{name}}<span style="color: red;padding-left: 20px;">{{test}}</span></p>
+				<button ng-click="toFather()">toFather</button>
+			</div>
+		</div>
+		<div ng-controller="brother2" style="border: 1px solid blue;padding-left: 5px;">
+			<p>{{name}}</p>
+		</div>
+	</body>
+	<script>
+		var app = angular.module('xApp', []);
+		app.controller('brother1', function($scope) {
+			$scope.name = 'laoxie';
+			$scope.test = 'a';
+			//用'to-child'来关联 拿到data
+			$scope.toSon = function() {
+				$scope.$broadcast('to-child', $scope.name);
+			}
+			//接受子级的数据
+			$scope.$on('to-father', function(event, data) {
+				console.log(data);
+				$scope.test = data;
+			});
+		})
+		app.controller('son', function($scope) {
+			$scope.name = 'yao';
+			$scope.test = 'b';
+			//接受父级的数据
+			$scope.$on('to-child', function(event, data) {
+				$scope.test = data;
+			});
+			$scope.toFather = function() {
+				$scope.$emit('to-father', $scope.name);
+			}
+		})
+		app.controller('brother2', function($scope) {
+			$scope.name = 'dk';
+		})
+	</script>
+
+</html>
