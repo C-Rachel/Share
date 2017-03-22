@@ -1,8 +1,8 @@
 # Share Something
 
-## Angular-JS
+### Angular-JS
 关于 angularJS 的学习
 
-## Vue
+### Vue
 关于 vue 的学习
 
