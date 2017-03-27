@@ -8,6 +8,12 @@
 ### Vue
 关于 vue 的学习
 <br />
+<form>
+<tr>
+ <td>Vue</td>
+ <td>Vue组件</td>
+</tr>
+</form>
 <br />1.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/2">Vue</a>
 <br />2.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/3">Vue组件</a>
 <br />3.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/4">Vue+webpack</a>
