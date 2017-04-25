@@ -16,7 +16,7 @@
 <br />3.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/4">Vue+webpack</a>
 <br />4.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/5">Vue关于ajax</a>
 <br />5.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/6">Vue-cli脚手架</a>
-<br />6.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/8">Vue 1.0 API中文文档</a>
+<br />6.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/8">Vue 1.0 API 中文文档</a>
 
 
 ### Camera
