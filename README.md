@@ -22,3 +22,6 @@
 
 ### Camera
 <a href="https://github.com/C-Rachel/Share/issues/7">关于Camera</a>
+
+### about requireJS
+<a href="https://github.com/C-Rachel/Share/issues/10">about requireJS</a>
