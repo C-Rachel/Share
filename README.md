@@ -1,4 +1,4 @@
-# Share Something
+# Share something
 
 ### Angular-JS
 关于 angularJS 的学习
