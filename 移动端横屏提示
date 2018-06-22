@@ -26,7 +26,3 @@ max-width: 812px  用来适配iphone X （320 x 812）
 
 
 
-资料参考
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation">资料1</a>
-<br />
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">资料2</a>
