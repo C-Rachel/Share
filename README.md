@@ -30,7 +30,7 @@
 <p><a href="http://www.blogdaren.com/m/?post=2111">虚拟主机配置</a></p>
 
 
-<p>媒体查询资料参考</p>
+### 媒体查询资料参考
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation">资料1</a>
 <br />
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">资料2</a>
