@@ -27,6 +27,7 @@
 			.div3:hover {
 				opacity: 0.5;
 				filter: alpha(opacity=50); /*opacity 用滤镜兼容IE*/
+				opacity: 0.3\9; /*IE9 IE8时使用0.3 用于区别IE浏览器使用样式*/
 			}		
 			
 		</style>
