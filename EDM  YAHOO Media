@@ -1,4 +1,5 @@
 <p>雅虎有自带的媒体查询规则</p>
+
 @media screen yahoo {
 	table .display-desktop{
 
