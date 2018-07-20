@@ -25,11 +25,6 @@
 ### Sass
 1.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>
 
-
-### about Apache
-<p><a href="http://www.blogdaren.com/m/?post=2111">虚拟主机配置</a></p>
-
-
 ### 媒体查询资料参考
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation">orientation</a>
 <br />
