@@ -33,4 +33,5 @@
 #### GitHub
 使用git 可参考[文档](https://blog.csdn.net/sinat_20177327/article/details/76062030)
 
-#### 了解[package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)
+#### package.json
+了解[package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)
