@@ -4,10 +4,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<style>
+			/*解决html不良闪烁问题*/
+			[ng-cloak] {
+				display: none;
+			}
+		</style>
 	</head>
 
 	<body>
-		<div ng-controller="indexCtrl">
+		<div ng-controller="indexCtrl" ng-cloak>
 			<button ng-click='pageTo(1)'>第一页</button>
 			<button ng-click='pageTo(2)'>第二页</button>
 			<button ng-click='pageTo(3)'>第三页</button>

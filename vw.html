@@ -36,14 +36,14 @@
 		div button:hover {
 			background-color: royalblue;
 		}
-		
-		.ng-cloak {
+		/*解决html不良闪烁问题*/
+		[ng-cloak] {
 			display: none;
 		}
 	</style>
 
 	<body ng-app="viewport">
-		<div class="ng-cloak" ng-controller="vw" ng-cloak>
+		<div ng-controller="vw" ng-cloak>
 			<div>
 				<label>视窗宽度/设计稿宽度:</label>
 				<input type="text" ng-model="view" />
