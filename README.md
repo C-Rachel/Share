@@ -31,7 +31,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">Using media queries</a>
 
 #### GitHub
-使用git 可参考[文档](https://blog.csdn.net/sinat_20177327/article/details/76062030)
+使用git 可参考[文章](https://blog.csdn.net/sinat_20177327/article/details/76062030)
 
 #### package.json
 了解package.json 可参考[文档](https://yarnpkg.com/lang/zh-hans/docs/package-json/)

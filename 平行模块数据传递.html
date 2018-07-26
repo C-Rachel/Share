@@ -16,9 +16,9 @@
 		<div ng-controller="brother1" style="border: 1px solid blue;margin-bottom: 5px;padding-left: 5px;">
 			<p>{{name}}<span style="color: red;padding-left: 20px;">{{test}}</span></p>
 			<button ng-click="toSon()">toSon</button>
-			<div ng-controller="son" style="border: 2px solid red;margin-bottom: 5px;padding-left: 5px;width: 90%;">
-				<p>{{name}}<span style="color: red;padding-left: 20px;">{{test}}</span></p>
-				<button ng-click="toFather()">toFather</button>
+			<div ng-controller="son" style="border: 2px solid seagreen;width: 90%;margin: 10px auto;text-align: center;">
+				<p>{{name}}<span style="color: seagreen;padding-left: 20px;">{{test}}</span></p>
+				<button ng-click="toFather()" style="margin-bottom: 10px;">toFather</button>
 			</div>
 		</div>
 		<div ng-controller="brother2" style="border: 1px solid blue;padding-left: 5px;">
@@ -28,7 +28,7 @@
 	<script>
 		var app = angular.module('xApp', []);
 		app.controller('brother1', function($scope) {
-			$scope.name = 'laoxie';
+			$scope.name = 'Markson';
 			$scope.test = 'a';
 			//用'to-child'来关联 拿到data
 			$scope.toSon = function() {
@@ -41,7 +41,7 @@
 			});
 		})
 		app.controller('son', function($scope) {
-			$scope.name = 'yao';
+			$scope.name = 'Gyeombam';
 			$scope.test = 'b';
 			//接受父级的数据
 			$scope.$on('to-child', function(event, data) {
@@ -52,7 +52,7 @@
 			}
 		})
 		app.controller('brother2', function($scope) {
-			$scope.name = 'dk';
+			$scope.name = 'jjp + x7';
 		})
 	</script>
 

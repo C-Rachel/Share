@@ -26,10 +26,16 @@
 			$scope.name = 'yao';
 			$scope.pageNum = 0;
 			$scope.pre = function() {
-				$scope.pageNum -= 2
+				console.log($scope.pageNum)
+				if($scope.pageNum > 0) {
+					$scope.pageNum -= 2;
+				}								
 			}
 			$scope.next = function() {
-				$scope.pageNum += 2
+				console.log($scope.pageNum)
+				if($scope.pageNum < $scope.arrs.length - 1){
+					$scope.pageNum += 2
+				}				
 			}
 			$scope.pageTo = function(pageNum) {
 				$scope.pageNum = (pageNum - 1) * 2;
