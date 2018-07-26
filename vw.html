@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>vw单位转换(ng)</title>
+	</head>
+	<style>
+		div {
+			margin-top: 10px;
+		}
+		
+		div label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		
+		div input {
+			border: 1px solid #888;
+			border-radius: 5px;
+			padding: 6px 0;
+			padding-left: 10px;
+			font-size: 16px;
+		}
+		
+		div button {
+			padding: 7px 25px;
+			border: 0;
+			background-color: dodgerblue;
+			color: white;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		div button:hover {
+			background-color: royalblue;
+		}
+		
+		.ng-cloak {
+			display: none;
+		}
+	</style>
+
+	<body ng-app="viewport">
+		<div class="ng-cloak" ng-controller="vw" ng-cloak>
+			<div>
+				<label>视窗宽度/设计稿宽度:</label>
+				<input type="text" ng-model="view" />
+			</div>
+			<div class="box" ng-model="data">
+				<label>px</label>
+				<input type="text" ng-model="ppx" />
+				<button ng-click="getV()">px 转  vw</button>
+			</div>
+			<div class="box" ng-model="data">
+				<label>vw</label>
+				<input type="text" ng-model="vvw" />
+				<button ng-click="getP()">vw 转  px</button>
+			</div>
+			<!--<div ng-if="rez == true && ppx != '' && vvw != ''">
+				<span>{{ppx}} px</span> =
+				<span>{{vvw}} vw</span>
+			</div>-->
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script>
+		var app = angular.module('viewport', []);
+		app.controller('vw', ['$scope', function($scope) {
+			$scope.view = '';
+			$scope.ppx = '';
+			$scope.vvw = '';
+			$scope.rez = false;
+			console.log($scope.view)
+			$scope.data = '';
+			$scope.getV = function() {				
+				$scope.context = $scope.view * 0.01;
+				$scope.vvw = $scope.ppx / $scope.context;
+				$scope.rez = true;
+				console.log($scope.rez)
+			}
+			$scope.getP = function() {
+				$scope.context = $scope.view * 0.01;
+				$scope.ppx = $scope.vvw * $scope.context;
+				$scope.rez = true;
+			}
+			//未完成
+//			$scope.$watchGroup(["ppx", "vvw"], function() {
+//				$scope.rez = false;
+//			});
+		}])
+	</script>
+
+</html>
