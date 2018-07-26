@@ -35,3 +35,7 @@
 
 #### package.json
 了解package.json 可参考[文档](https://yarnpkg.com/lang/zh-hans/docs/package-json/)
+
+#### 微信小程序
+微信小程序 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
+
