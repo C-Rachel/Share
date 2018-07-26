@@ -41,3 +41,6 @@
 #### 微信小程序
 微信小程序 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
 
+#### Viewport units
+vw作为响应式单位 是相当不错的选择
+关于Viewport units[文章](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units)
