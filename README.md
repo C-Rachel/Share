@@ -52,3 +52,6 @@ vw作为响应式单位 是相当不错的选择
 [OTF转其他字体](https://onlinefontconverter.com/)
 <br />
 [Fontmin](https://github.com/ecomfe/fontmin)
+
+#### 设计稿全自动切图和标注
+Cutterman 参考[文章](https://github.com/jawil/blog/issues/11)
