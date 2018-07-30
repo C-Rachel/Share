@@ -47,7 +47,7 @@ vw作为响应式单位 是相当不错的选择
 关于Viewport units[文章](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units)
 
 #### 字体
-[百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html)
+[百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html) 可以用于[生成iconfont](https://github.com/C-Rachel/Share/issues/13)
 <br />
 [OTF转其他字体](https://onlinefontconverter.com/)
 <br />
