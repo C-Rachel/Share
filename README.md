@@ -56,6 +56,7 @@ vw作为响应式单位 是相当不错的选择
 #### 设计稿全自动切图和标注
 Cutterman 参考[文章](https://github.com/jawil/blog/issues/11)
 
-####vue-awesome-swiper
+#### vue-awesome-swiper
 [vue-awesome-swiper网站](https://surmon-china.github.io/vue-awesome-swiper/)
+<br />
 [vue-awesome-swiper相关教程](https://github.com/surmon-china/vue-awesome-swiper)
