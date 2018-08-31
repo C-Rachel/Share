@@ -59,3 +59,6 @@ Cutterman 参考[文章](https://github.com/jawil/blog/issues/11)
 [vue-awesome-swiper网站](https://surmon-china.github.io/vue-awesome-swiper/)
 <br />
 [vue-awesome-swiper相关教程](https://github.com/surmon-china/vue-awesome-swiper)
+
+#### 切图注释相关
+[蓝湖](https://lanhuapp.com/)
