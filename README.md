@@ -16,6 +16,7 @@
 |  [vue-cli脚手架](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |      |
 
 
+### Other
 
 |  Media  |   Media   |
 | ---------- | -----------  |
