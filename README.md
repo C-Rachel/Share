@@ -25,21 +25,24 @@
 ### Sass
 1.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>
 
-|  Media  |  Media  |   Media   |
-| ---------- | ---------- | -----------  |
-| **媒体查询资料参考** |  [orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)  |   [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)   |
-|  **Camera**  |  **requireJS**  |   **Sass**   |
+|  Media  |   Media   |
+| ---------- | -----------  |
+|  [orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)  |   [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)   |
+|  **Camera**  |  **requireJS**  |
 | <a href="https://github.com/C-Rachel/Share/issues/7">关于Camera</a> | <a href="https://github.com/C-Rachel/Share/issues/10">about requireJS</a> | <a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>  |
-
+|   **Sass**   |   **GitHub**   |
+| <a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>  | [use git](https://blog.csdn.net/sinat_20177327/article/details/76062030) |
+|   **json**   |   **weixin**   |
+| [package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)  |  [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) |
 
 #### GitHub
-使用git 可参考[文章](https://blog.csdn.net/sinat_20177327/article/details/76062030)
+[use git](https://blog.csdn.net/sinat_20177327/article/details/76062030)
 
 #### package.json
-了解package.json 可参考[文档](https://yarnpkg.com/lang/zh-hans/docs/package-json/)
+[package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)
 
 #### 微信小程序
-微信小程序 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
+ [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
 
 #### Viewport units
 vw作为响应式单位 是相当不错的选择
