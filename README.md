@@ -26,13 +26,11 @@
 1.&nbsp;&nbsp;<a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>
 
 |  Media  |   Media   |
-| :----------: | :-----------:  |
+| ---------- | -----------  |
 |  [orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)  |   [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)   |
-|  **Camera**  |  **requireJS**  |
+|  <p align="center" style="margin-bottom: 0;">**Camera**</p>  |  **requireJS**  |
 | <a href="https://github.com/C-Rachel/Share/issues/7">关于Camera</a> | <a href="https://github.com/C-Rachel/Share/issues/10">about requireJS</a> | <a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>  |
-|   **Sass**   |   **GitHub**   |
 | <a href="https://github.com/C-Rachel/Share/issues/11">管理Sass项目文件结构</a>  | [use git](https://blog.csdn.net/sinat_20177327/article/details/76062030) |
-|   **json**   |   **weixin**   |
 | [package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)  |  [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) |
 
 #### GitHub
