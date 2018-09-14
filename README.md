@@ -27,5 +27,6 @@
 | [package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/)  |  [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) | [响应式单位 Viewport units](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units) |
 | [百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html) | [onlinefontconverter 字体转换](https://onlinefontconverter.com/) | [Fontmin 字体转换](https://github.com/ecomfe/fontmin) |
 | [Cutterman设计稿切图](https://github.com/jawil/blog/issues/11) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) | [蓝湖](http://sos.lanhuapp.com/#/1) |
+| [二级菜单DEMO](https://c-rachel.github.io/Share/menu-demo.html) |  |  |
 
 
