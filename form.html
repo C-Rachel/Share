@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>自定义样式</title>
+	<style>
+		.ryo-input,
+		.ryo-select {
+			border: 0;
+			appearance: none;
+			border-radius: 0;
+			outline: none;
+			-webkit-appearance: none;
+			-webkit-border-radius: 0;
+			border-bottom: 1px solid #310340;
+			padding-bottom: d-vw(8px);
+			display: inline-block;
+			width: 200px;
+		}
+
+		.form-data select {
+			background: url(select.png) no-repeat 100%;
+			cursor: pointer;
+		}
+
+		.form-data input[type=checkbox] {
+			display: none;
+		}
+
+		.form-data input[type=checkbox]:checked+i {
+			background: url(checkbox_bg.png) no-repeat 50%;
+		}
+
+		.form-data label i {
+			cursor: pointer;
+			font-style: normal;
+			display: inline-block;
+			width: 1.4vw;
+			height: 1.4vw;
+			text-align: center;
+			line-height: 1.35vw;
+			vertical-align: middle;
+			margin: -2px .78125vw 1px 0;
+			border: 1px solid #8a7149;
+			font-weight: 600;
+		}
+	</style>
+</head>
+
+<body>
+	<form class="form-data">
+		<p>
+			<input class="ryo-input" placeholder="请输入..." />
+		</p>
+		<p>
+			<select class="ryo-select">
+				<option>a</option>
+				<option>b</option>
+			</select>
+		</p>
+		<p>
+			<label>
+				<input type="checkbox">
+				<i></i>SMS</label>
+		</p>
+	</form>
+</body>
+
+</html>
