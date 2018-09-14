@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<style>
+		.clearfix::after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		ul,
+		li {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.menu {
+			font-size: 16px;
+		}
+
+		.menu li {
+			float: left;
+			position: relative;
+		}
+
+		.menu a {
+			display: block;
+			width: 100px;
+			height: 35px;
+			line-height: 35px;
+			background-color: #8080C0;
+			color: #fff;
+			text-align: center;
+			overflow: hidden;
+			text-decoration: none;
+		}
+
+		.menu a:hover {
+			background-color: #6A5ACD;
+		}
+
+		.second-menu a {
+			background-color: cadetblue;
+		}
+
+		.second-menu a:hover {
+			background-color: #336699;
+		}
+
+		.third-menu a {
+			background-color: salmon;
+		}
+
+		.third-menu a:hover {
+			background-color: crimson;
+		}
+		
+		.menu ul {
+			visibility: hidden;
+			position: absolute;
+			left: 0px;
+			top: 35px;
+		}
+
+		.menu li:hover ul.second-menu,
+		.menu a:hover ul.second-menu {
+			visibility: visible;
+		}
+
+		.menu .second-menu li {
+			clear: both;
+			/*垂直显示*/
+			text-align: left;
+		}
+
+		.menu .third-menu {
+			top: 0px;
+			left: 100px;
+		}
+
+		.menu ul li:hover ul.third-menu,
+		.menu ul a:hover ul.third-menu {
+			visibility: visible;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class="menu">
+		<li>
+			<a href="#">111</a>
+			<ul class="second-menu">
+				<li>
+					<a href="#">11111</a>
+				</li>
+				<li>
+					<a href="#">11112</a>
+				</li>
+				<li>
+					<a href="#">11113</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">222</a>
+			<ul class="second-menu">
+				<li>
+					<a href="#">22221</a>
+				</li>
+				<li>
+					<a href="#">22222</a>
+				</li>
+				<li>
+					<a href="#">22223</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">333</a>
+			<ul class="second-menu">
+				<li>
+					<a href="#">33331</a>
+				</li>
+				<li>
+					<a href="#">33332</a>
+					<ul class="third-menu">
+						<li>
+							<a href="#">333331</a>
+						</li>
+						<li>
+							<a href="#">333332</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">444</a>
+		</li>
+		<li>
+			<a href="#">555</a>
+			<ul class="second-menu">
+				<li>
+					<a href="#">55551</a>
+				</li>
+				<li>
+					<a href="#">55552</a>
+				</li>
+				<li>
+					<a href="#">55553</a>
+				</li>
+				<li>
+					<a href="#">55554</a>
+				</li>
+				<li>
+					<a href="#">55555</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</body>
+
+</html>
