@@ -28,8 +28,8 @@
 |  ISSUES  |   ISSUES   |
 | ---------- | -----------  |
 | [gulp webserver](https://github.com/C-Rachel/Share/issues/22) | [about requireJS](https://github.com/C-Rachel/Share/issues/10) |
-| [Cutterman设计稿切图](https://github.com/jawil/blog/issues/11) | [关于Camera](https://github.com/C-Rachel/Share/issues/7) |
-| [管理Sass项目文件结构](https://github.com/C-Rachel/Share/issues/11) | [HTML-PDF-打印](https://github.com/C-Rachel/Share/issues/23) |
+| [Cutterman设计稿切图](https://github.com/jawil/blog/issues/11) | [管理Sass项目文件结构](https://github.com/C-Rachel/Share/issues/11) |
+| [关于Camera](https://github.com/C-Rachel/Share/issues/7) | [HTML-PDF-打印](https://github.com/C-Rachel/Share/issues/23) |
 
 ### Other
 
@@ -39,8 +39,8 @@
 | [GitHub Pages](https://pages.github.com/) | [use git](https://blog.csdn.net/sinat_20177327/article/details/76062030) | [use git delete](https://www.jianshu.com/p/03314c2ed04d) |
 | [NodeJS](http://nodejs.cn/) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) | [蓝湖](http://sos.lanhuapp.com/#/1) |
 | [Material Design](https://material.io/) | [CSDN](https://www.csdn.net/) | [Swagger API](https://swagger.io/) |
-|  [React技术栈系列教程(阮一峰)](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html) |  [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) | [响应式单位 Viewport units](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units) |
-| [百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html) | [onlinefontconverter 字体转换](https://onlinefontconverter.com/) | [Fontmin 字体转换](https://github.com/ecomfe/fontmin) |
-| [transfonter字体转换](https://transfonter.org/ttc-unpack) |  |  |
+|  [React技术栈系列教程(阮一峰)](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html) | [响应式单位 Viewport units](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units) | [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) |
+| [transfonter字体转换](https://transfonter.org/ttc-unpack) | [onlinefontconverter 字体转换](https://onlinefontconverter.com/) | [Fontmin 字体转换](https://github.com/ecomfe/fontmin) |
+| [百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html) |  |  |
 
 
