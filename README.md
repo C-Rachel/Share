@@ -22,7 +22,7 @@
 |  DEMO  |   DEMO   |
 | ---------- | -----------  |
 | [二级菜单DEMO](https://c-rachel.github.io/Share/menu-demo.html) | [自定义表单样式DEMO](https://c-rachel.github.io/Share/form.html) |
-| [二级菜单DEMO](https://c-rachel.github.io/Share/menu-demo.html) |  |
+| [随机字体大小DEMO](https://c-rachel.github.io/Share/randomDemo.html) |  |
 
 ### ISSUES
 
