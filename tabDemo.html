@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tab</title>
+		<style>
+			button {
+				background-color: #fff;
+				border: 1px solid seagreen;
+				padding: 8px 20px;
+				cursor: pointer;
+				margin-right: 20px;
+				/* 除去点击时的框 */
+				outline: none; 				
+			}
+			.btn3 {
+				margin-right: 0;
+			}
+			button:focus{
+				border: 1px solid red;
+			}
+			.box2, .box3 {
+				display: none;
+			}
+			.box1, .box2, .box3 {
+				width: 300px;
+				padding: 50px 0;
+				text-align: center;
+				border: 1px solid saddlebrown;
+				margin: 20px auto 0;
+			}
+			button.active {
+				border: 1px solid salmon;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="text-align: center;">
+			<p>Btn DEMO</p>
+			<button class="btn1 active">111</button>
+			<button class="btn2">222</button>
+			<button class="btn3">333</button>
+			<div class="box1">111</div>
+			<div class="box2">222</div>
+			<div class="box3">333</div>
+			<p>mouseenter + mouseleave可以模拟hover效果</p>
+			<p class="text">模拟hover效果</p>
+		</div>		
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(e){
+			$('button').mouseenter(function(e){
+				var btn1 = $(e.target).hasClass('btn1');
+				var btn2 = $(e.target).hasClass('btn2');
+				var btn3 = $(e.target).hasClass('btn3');
+				if(btn1) {
+					$('.box1').show();
+					$('.box2').hide();
+					$('.box3').hide();
+				}else if(btn2) {
+					$('.box1').hide();
+					$('.box2').show();
+					$('.box3').hide();
+				}else if(btn3) {
+					$('.box1').hide();
+					$('.box2').hide();
+					$('.box3').show();
+				}
+				$('button').removeClass('active');
+				$(e.target).addClass('active');
+			});
+			$('.text').mouseenter(function(){
+				$(this).css('color','red');
+			});
+			$('.text').mouseleave(function(){
+				$(this).css('color','#000');
+			});
+		});			
+	</script>
+</html>
