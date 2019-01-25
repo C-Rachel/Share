@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>about ajax</title>
+		<style>
+			.result-box {
+				width: 500px;
+				height: 500px;
+				margin: 0 auto;
+				background-color: #8080C0;
+				padding: 30px 20px;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="result-box">
+			<p class="box1">Ajax</p>
+			<p class="box2">GET</p>
+			<p class="box3">POST</p>
+			<button class="btn">clickclick</button>
+			<p id="demo">this is getData DEMO</p>
+			<button onclick="getData()">getData</button>
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		function getData() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("demo").innerHTML = "YESYESYES"
+				}
+			};
+			xhttp.open("GET", "data/data.json", true);
+			xhttp.send();
+		};
+
+		$(document).ready(function() {
+			$(".btn").click(function() {
+				$.ajax({
+					url: "data/data.json",
+					type: "GET",
+					success: function(result) {
+						$(".box1").html("ajax success");
+						console.log(result)
+					}
+				});
+				$.get({
+					url: "https://virtserver.swaggerhub.com/C-Rachel/test1/1.0.0/inventory",
+					success: function(result) {
+						$(".box2").html("get success");
+						console.log(result)
+					}
+				});
+				$.post({
+					url: "https://virtserver.swaggerhub.com/C-Rachel/demo/1.0/test",
+					success: function(result) {
+						$(".box3").html("post success");
+						console.log(result)
+					}
+				});
+			})
+
+		});
+	</script>
+</html>
