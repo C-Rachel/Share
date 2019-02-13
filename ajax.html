@@ -6,11 +6,17 @@
 		<style>
 			.result-box {
 				width: 500px;
-				height: 500px;
+				min-height: 500px;
 				margin: 0 auto;
 				background-color: #8080C0;
 				padding: 30px 20px;
 				color: #fff;
+			}
+			.htmlBox {
+				margin-top: 30px;
+				border: 1px solid #fff;
+				opacity: 0;
+				padding-left: 15px;
 			}
 		</style>
 	</head>
@@ -22,7 +28,11 @@
 			<button class="btn">clickclick</button>
 			<p id="demo">this is getData DEMO</p>
 			<button onclick="getData()">getData</button>
+			<div class="htmlBox">
+				<!-- ajax的数据 -->
+			</div>
 		</div>
+		
 	</body>
 	<script src="js/jquery.min.js"></script>
 	<script>
@@ -45,6 +55,19 @@
 					success: function(result) {
 						$(".box1").html("ajax success");
 						console.log(result)
+						var data = result.meta;
+						var str = '';
+						
+						$.each(data, function(num, obj){
+							str += '<div class="boxbox">';
+							str += '<p>第'+ parseInt(num+1) +'位</p>';
+							str += '<p>'+ obj.name +'</p>';
+							str += '<p>'+ obj.age +'</p>';
+							str += '</div>';
+						});
+						
+						$('.htmlBox').append(str);
+						$('.htmlBox').css('opacity', 1);
 					}
 				});
 				$.get({
