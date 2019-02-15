@@ -102,7 +102,7 @@ gulp.task("js", function () {
 /**
  * 默认task，编译整个项目
  */
-gulp.task("default", ["asset", "css", "js", "html"]);
+gulp.task("all", ["asset", "css", "js", "html"]);
 
 
 
