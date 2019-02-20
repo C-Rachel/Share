@@ -18,7 +18,7 @@
 |  [vue-cli脚手架](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |
 
 ### Gulp
-``gulp-demo`` add ``gulpfile.js``
+``gulp-demo`` 添加 gulpfile.js
 
 ### DEMO
 
