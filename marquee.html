@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.clearfix::after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			
+			p,ul,li {
+				margin: 0;
+				padding: 0;
+			}
+
+			ul,
+			li {
+				list-style-type: none;				
+			}
+			
+			.box1 {
+				background-color: #ccc;
+				width: 600px;
+			}
+
+			.title-box {
+				color: crimson;
+				float: left;
+				padding: 0 20px 0 10px;
+			}
+			.cbox {
+				float: left;
+				width: 500px;
+			}
+			.content-box {
+				
+				color: #fff;
+			}
+			.content-box li {
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1 clearfix">
+			<p class="title-box">滚动内容</p>
+			<div class="cbox">
+				<marquee direction="left" behavior="scroll" onmouseout="this.start()" onmouseover="this.stop()" loop="-1">
+					<ul class="content-box clearfix">
+						<li>111</li>
+						<li>222</li>
+						<li>333</li>
+						<li>444</li>
+						<li>555</li>
+					</ul>
+				</marquee>
+			</div>
+
+		</div>
+	</body>
+</html>
