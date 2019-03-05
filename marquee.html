@@ -23,6 +23,7 @@
 			.box1 {
 				background-color: #ccc;
 				width: 600px;
+				margin: 30px auto 0;
 			}
 
 			.title-box {
@@ -34,8 +35,7 @@
 				float: left;
 				width: 500px;
 			}
-			.content-box {
-				
+			.content-box {			
 				color: #fff;
 			}
 			.content-box li {
@@ -47,14 +47,22 @@
 		<div class="box1 clearfix">
 			<p class="title-box">滚动内容</p>
 			<div class="cbox">
-				<marquee direction="left" behavior="scroll" onmouseout="this.start()" onmouseover="this.stop()" loop="-1">
-					<ul class="content-box clearfix">
-						<li>111</li>
-						<li>222</li>
-						<li>333</li>
-						<li>444</li>
-						<li>555</li>
-					</ul>
+				<marquee direction="left" behavior="scroll" onmouseout="this.start()" onmouseover="this.stop()">
+					<!-- 使用ul li内容过长有换行问题未解决 -->
+					<!-- <ul class="content-box clearfix">
+						<li>我是动新闻1；</li>
+						<li>我是动新闻2；</li>
+						<li>我是动新闻3；</li>
+						<li>我是动新闻4；</li>
+						<li>我是动新闻5；</li>
+					</ul> -->
+					<p class="content-box">
+						<span>我是动新闻1；</span>
+						<span>我是动新闻2；</span>
+						<span>我是动新闻3；</span>
+						<span>我是动新闻4；</span>
+						<span>我是动新闻5；</span>
+					</p>
 				</marquee>
 			</div>
 
