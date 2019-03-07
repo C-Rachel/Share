@@ -41,6 +41,15 @@
 			.content-box li {
 				float: left;
 			}
+			.content-box2{
+			  white-space:nowrap;
+			  overflow:hidden;
+			  width:500px;
+			}
+			.bbox {
+				padding: 5px 10px;
+				color: #6A5ACD;
+			}
 		</style>
 	</head>
 	<body>
@@ -67,5 +76,36 @@
 			</div>
 
 		</div>
+		<div class="box1 bbox clearfix">
+			<p class="title-box">滚动内容</p>
+			<div class="cbox">
+				<div class="content-box2">
+					<span>新闻头条啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦；</span>
+					<span>震惊！嚯嚯嚯嚯嚯嚯嚯嚯嚯嚯嚯；</span>
+					<span>嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻；</span>
+					<span>嘿嘿嘿二黑黑黑黑黑黑二或或或或或或4；</span>
+					<span>我是动新闻5；</span>
+				</div>
+			</div>
+
+		</div>
 	</body>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		// var txt = $(".content-box2").children("span:first-child")[0].innerHTML;
+		// $('<span>'+ txt +'</span>').appendTo($(".content-box2"));
+		function vv(index) {
+			var tp = (index.scrollLeft)++;
+			if(index.scrollLeft == tp){
+				setTimeout(function(){
+					index.scrollLeft = 0;
+				},500)							
+			}
+		}
+		var setInt = setInterval(function(){
+			var index = $(".content-box2")[0];
+			vv(index);
+		}, 10);
+		// console.log($(".content-box2").children()[0].offsetWidth)
+	</script>
 </html>
