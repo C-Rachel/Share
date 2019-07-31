@@ -82,7 +82,10 @@
 			$scope.errvw = false;
 			$scope.getV = function() {				
 				$scope.context = $scope.view * 0.01;
+				//100vw是整个窗口的大小 $scope.view * 0.01则为1vw窗口大小
+				//其实这句应该为($scope.view * 0.01)*1px 1vw窗口大小等于多少px
 				$scope.vvw = $scope.ppx / $scope.context;
+				//($scope.ppx / $scope.context)*1vw 待转换的px除以1vw的px
 				$scope.rez = true;
 				console.log($scope.rez)
 				if($scope.ppx == '') {
