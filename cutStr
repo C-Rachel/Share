@@ -1,0 +1,8 @@
+var str ="600颗";
+var num = parseInt(str);
+alert(num);//600
+//parseInt() 遇到非数字字符停下来，返回前边的数字
+var s ="有600颗糖";
+var num= s.replace(/[^0-9]/ig,"");
+alert(num);//600
+//正则
