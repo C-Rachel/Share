@@ -6,7 +6,7 @@
 | ---------- | -----------  |
 | [分页 DEMO](https://c-rachel.github.io/Share/%E5%88%86%E9%A1%B5.html) | [opacity DEMO](https://c-rachel.github.io/Share/opacity%20(filter%20IE).html) |
 | [数据传递 DEMO](https://c-rachel.github.io/Share/%E5%B9%B3%E8%A1%8C%E6%A8%A1%E5%9D%97%E6%95%B0%E6%8D%AE%E4%BC%A0%E9%80%92.html) | [vw单位转换 DEMO](https://c-rachel.github.io/Share/vw.html) |
-| [控制器之间传输](https://github.com/C-Rachel/Share/issues/1)  |       |
+| [控制器之间传输](https://github.com/C-Rachel/Share/issues/1)  | [Angular CLI](https://github.com/angular/angular-cli) |
 
 
 ### Vue
@@ -16,7 +16,7 @@
 | [vuex](https://github.com/C-Rachel/Share/issues/2) | [vue组件](https://github.com/C-Rachel/Share/issues/3) |
 | [vue+webpack](https://github.com/C-Rachel/Share/issues/4) | [vue关于ajax](https://github.com/C-Rachel/Share/issues/5) |
 |  [vue-cli脚手架](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |
-| [vue-datepicker](https://github.com/hilongjw/vue-datepicker) |  |
+| [vue-datepicker](https://github.com/hilongjw/vue-datepicker) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) |
 
 ### Gulp
 ``gulp-demo`` 添加 gulpfile.js
@@ -42,12 +42,12 @@
 | ---------- | ----------- | ----------- |
 |  [Media orientation](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation)  |   [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)   | [package.json](https://yarnpkg.com/lang/zh-hans/docs/package-json/) |
 | [GitHub Pages](https://pages.github.com/) | [use git](https://blog.csdn.net/sinat_20177327/article/details/76062030) | [use git delete](https://www.jianshu.com/p/03314c2ed04d) |
-| [NodeJS](http://nodejs.cn/) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) | [蓝湖](http://sos.lanhuapp.com/#/1) |
+| [NodeJS](http://nodejs.cn/) | [即时通讯技术原理详解](https://juejin.im/entry/59f94f05518825603a37ef30) | [蓝湖](http://sos.lanhuapp.com/#/1) |
 | [Material Design](https://material.io/) | [CSDN](https://www.csdn.net/) | [Swagger API](https://swagger.io/) |
 |  [React技术栈系列教程(阮一峰)](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html) | [响应式单位 Viewport units](https://tutorialzine.com/2015/05/simplify-your-stylesheets-with-the-magical-css-viewport-units) | [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) |
 | [transfonter字体转换](https://transfonter.org/ttc-unpack) | [Fontmin 字体转换](https://github.com/ecomfe/fontmin) | [onlinefontconverter 字体转换](https://onlinefontconverter.com/) |
 | [百度字体编辑器](http://fontstore.baidu.com/static/editor/index.html) | [APICloud](https://www.apicloud.com/) | [jQCloud 随机标签插件](http://mistic100.github.io/jQCloud/) |
 | [Flutter中文网](https://flutterchina.club/) | [TypeScript](https://ts.xcatliu.com/) | [iconfont](https://www.iconfont.cn/) |
-| [WebSocket](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket) | [WebSocket-阮一峰](http://www.ruanyifeng.com/blog/2017/05/websocket.html) | [即时通讯技术原理详解](https://juejin.im/entry/59f94f05518825603a37ef30) |
+| [WebSocket](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket) | [WebSocket-阮一峰](http://www.ruanyifeng.com/blog/2017/05/websocket.html) |  |
 
 
