@@ -14,8 +14,8 @@
 |  vue  |   vue   |
 | ---------- | -----------  |
 | [vuex](https://github.com/C-Rachel/Share/issues/2) | [vue组件](https://github.com/C-Rachel/Share/issues/3) |
-| [vue+webpack](https://github.com/C-Rachel/Share/issues/4) | [vue关于ajax](https://github.com/C-Rachel/Share/issues/5) |
-|  [vue-cli脚手架](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |
+| [vue+webpack](https://github.com/C-Rachel/Share/issues/4) | [vue ajax](https://github.com/C-Rachel/Share/issues/5) |
+|  [vue-cli](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |
 | [vue-datepicker](https://github.com/hilongjw/vue-datepicker) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) |
 
 ### Gulp
