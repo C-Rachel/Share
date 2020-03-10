@@ -18,8 +18,6 @@
 |  [vue-cli](https://github.com/C-Rachel/Share/issues/6)  | [vue-resource vue 1.x](https://github.com/C-Rachel/Share/issues/9) |
 | [vue-datepicker](https://github.com/hilongjw/vue-datepicker) | [vue-awesome-swiper](https://surmon-china.github.io/vue-awesome-swiper/) |
 
-### Gulp
-``gulp-demo`` 添加 gulpfile.js
 
 ### DEMO
 
