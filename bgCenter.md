@@ -1,0 +1,23 @@
+实现图片始终居中显示于浏览器窗口中心不变，可用：
+1、将图片设置为背景图
+```
+background-image:url(images/xxx.jpg);
+background-repeat:no-repeat;
+background-position:center;
+```
+2、用绝对定位的方法（未尝试）
+```
+position:absolute;
+left:50%;
+top:50%;
+translateX(-50%);
+translateY(-50%);
+```
+or
+```
+position:absolute;
+left:50%;
+top:0;
+margin-left:-xxx;  /* xxx为图片宽度的一半 */
+```
+3、flex
